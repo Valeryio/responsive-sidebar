@@ -1,0 +1,5 @@
+.active
+{
+    color: var(--clr-dark-black);
+    background-color: var(--clr-neutral-green);
+}

@@ -22,7 +22,7 @@
     --fw-medium: 500;
 
     /*Font sizes*/
-    --fs-normal: 1rem;
+    --fs-normal: 1.2rem;
     --fs-title: 2rem;
 }
 
@@ -47,11 +47,52 @@ aside
     border: 1px solid black;
 }
 
-.nav-link-item
+.top-content
 {
-    color: white;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 2rem;
 }
 
+.navbar-header
+{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-container
+{
+    border: 1px solid blue;
+}
+
+
+.nav-link-item
+{
+    height: 5rem;
+    border: 1px solid var(--clr-neutral-green);
+}
+
+.nav-link
+{
+    
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: start;
+
+    height: 100%;
+    border-radius: 0.5rem;
+    font-size: var(--fs-normal);
+    transition-duration: 0.5s;
+    transition-property: color, background-color;
+}
+
+.nav-link:hover
+{
+}
 
 
 .navbar-footer
