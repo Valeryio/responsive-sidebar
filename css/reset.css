@@ -32,3 +32,14 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  a
+  {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul
+  {
+    list-style: none;
+  }

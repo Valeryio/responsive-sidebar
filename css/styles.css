@@ -11,6 +11,8 @@
 
     /*Dark colors*/
     --clr-dark-green: #084236;
+    --clr-dark-black: #272727;
+
 
     /*Font families*/
     --ff-base: 'Poppins', sans-serif;
@@ -36,5 +38,23 @@ body
 
 aside
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: white;
+    background-color: var(--clr-dark-black);
     border: 1px solid black;
+}
+
+.nav-link-item
+{
+    color: white;
+}
+
+
+
+.navbar-footer
+{
+    background-color: var(--clr-primary-green);
 }
