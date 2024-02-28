@@ -1,7 +1,40 @@
 
+:root
+{
+    /*Primary colors*/
+    --clr-primary-green: #18C29C;
+
+    /*Neutral colors*/
+    --clr-neutral-green: #8ED7C6;
+    --clr-neutral-grayish: #DCE4E3;
+    --clr-neutral-white-gray: #DCE4E3;
+
+    /*Dark colors*/
+    --clr-dark-green: #084236;
+
+    /*Font families*/
+    --ff-base: 'Poppins', sans-serif;
+
+    /*Font weight*/
+    --fw-regular: 400;
+    --fw-medium: 500;
+
+    /*Font sizes*/
+    --fs-normal: 1rem;
+    --fs-title: 2rem;
+}
+
+
 body
 {
     display: grid;
+    font-family: var(--ff-base);
+    grid-template-rows: 100vh;
     grid-template-columns: 20rem auto;
 }
 
+
+aside
+{
+    border: 1px solid black;
+}
