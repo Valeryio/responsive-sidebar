@@ -62,9 +62,9 @@ aside
 }
 
 .navbar-header
-{
-    
+{   
     display: flex;
+    padding-top: 1rem;
     justify-content: space-between;
 }
 
@@ -154,3 +154,34 @@ h1
 {
     font-weight: 500;
 }
+
+
+/*SOme reseting in files*/
+
+
+
+.navbar-header
+{
+    justify-content: center;
+}
+
+body
+{
+    grid-template-columns: 5rem auto;   
+}
+
+.nav-link, .top-content
+{
+    padding: 0.5rem;
+}
+
+.nav-link
+{
+    justify-content: center;
+}
+
+.brand-logo, .nav-link p, .navbar-footer .profile
+{
+    display: none;
+}
+
