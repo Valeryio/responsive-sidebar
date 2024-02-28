@@ -5,6 +5,7 @@
     --clr-primary-green: #18C29C;
 
     /*Neutral colors*/
+    --clr-neutral-light-green: #F0FDFA;
     --clr-neutral-green: #8ED7C6;
     --clr-neutral-grayish: #DCE4E3;
     --clr-neutral-white-gray: #DCE4E3;
@@ -44,7 +45,7 @@ aside
 
     color: white;
     background-color: var(--clr-dark-black);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .top-content
@@ -64,14 +65,15 @@ aside
 
 .nav-link-container
 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 
 .nav-link-item
 {
-    height: 5rem;
-    border: 1px solid var(--clr-neutral-green);
+    margin-bottom: 0.5rem;
+    height: 4rem;
+    /* border: 1px solid var(--clr-neutral-green); */
 }
 
 .nav-link
@@ -85,17 +87,41 @@ aside
 
     height: 100%;
     border-radius: 0.5rem;
-    font-size: var(--fs-normal);
+    font-size: 16px;
     transition-duration: 0.5s;
-    transition-property: color, background-color;
+    transition-property: color, background-color, font-weigth;
 }
 
 .nav-link:hover
 {
+    color: var(--clr-dark-black);
+    background-color: var(--clr-neutral-green);
 }
 
 
 .navbar-footer
 {
+    display: flex;
+    padding: 1rem;
     background-color: var(--clr-primary-green);
+}
+
+
+.navbar-footer
+{
+
+}
+
+
+/*Code about the main section*/
+
+main
+{
+    padding: 2rem;
+    background-color: var(--clr-neutral-light-green);
+}
+
+h1
+{
+    font-weight: 500;
 }
