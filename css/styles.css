@@ -27,6 +27,11 @@
     --fs-title: 2rem;
 }
 
+*
+{
+    box-sizing: border-box;
+}
+
 
 body
 {
@@ -101,9 +106,33 @@ aside
 
 .navbar-footer
 {
+    height: 4rem;
     display: flex;
-    padding: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--clr-primary-green);
+}
+
+.profile
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.profile-name
+{
+    font-size: 1.2rem;
+}
+
+.profile-name, .profile-job
+{
+    color: var(--clr-dark-black);
+}
+
+img
+{
+    max-width: 100%;
 }
 
 
