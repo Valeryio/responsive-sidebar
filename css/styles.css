@@ -36,6 +36,8 @@
 body
 {
     display: grid;
+    height: 100vh;
+    overflow: hidden;
     font-family: var(--ff-base);
     grid-template-rows: 100vh;
     grid-template-columns: 20rem auto;
@@ -154,8 +156,37 @@ img
 
 main
 {
-    padding: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
     background-color: var(--clr-neutral-light-green);
+}
+
+.challenge-informations
+{
+    border: 1px solid;
+}
+
+h2
+{
+    font-size: var(--fs-title);
+}
+
+.image-container
+{
+    width: 736px;
+    border: 1px solid;
+}
+
+.main-footer
+{
+    /* position: absolute;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    text-align: center; */
+    color: white;
+    background-color: var(--clr-dark-black);
 }
 
 
