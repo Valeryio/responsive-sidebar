@@ -158,31 +158,6 @@ main
     background-color: var(--clr-neutral-light-green);
 }
 
-h1
-{
-    font-weight: 500;
-}
-
-.hide-or-not
-{
-    display: none;
-}
-
-.progressive-disappearing
-{
-    opacity: 0;
-}
-
-
-.reduced-navbar
-{
-    grid-template-columns: 5rem auto; 
-}
-
-.centered-content
-{
-    justify-content: center;
-}
 
 /*SOme reseting in files*/
 
