@@ -5,19 +5,26 @@
 let body = document.querySelector("body");
 console.log(body);
 
-let toHide = [
-                document.querySelector(".brand-logo"), 
-                document.querySelector(".profile")
-            ];
+/**
+ * The amburger menu that is the key button of the interaction
+ */
+let amburgerMenu = document.querySelector(".amburger-menu");
 
+
+/**
+ * This array have the html child element of the aside 
+ * tag that we have to hide
+ */
+let elementToHide = [document.querySelector(".brand-logo"), document.querySelector(".profile")];
+
+/**
+ * This one have all the parameters of the links description
+ * that we want to hide
+ */
 let linkDescriptions = document.querySelectorAll(".nav-link-description");
 
 
 let navbar = {
-    menu: document.querySelector(".amburger-menu"),
-    logo: document.querySelector(".brand-logo"),
     header: document.querySelector(".navbar-header"),
-    footer: document.querySelector(".navbar-footer"),
-    linkDescription: document.querySelectorAll(".nav-link-description"),
-    profileInformations: document.querySelector(".profile")
+    footer: document.querySelector(".navbar-footer")
 }

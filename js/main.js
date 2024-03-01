@@ -1,6 +1,6 @@
 
 
-navbar.menu.addEventListener("click", (event) => {
+amburgerMenu.addEventListener("click", (event) => {
 
     /**
      * Resizing the differents sections (article and main)
@@ -12,17 +12,22 @@ navbar.menu.addEventListener("click", (event) => {
      * Hide all the name of the setting
      */
     linkDescriptions.forEach(element => {
-       element.classList.toggle("hide-or-not");
+    //    element.classList.toggle("hide-or-not");
+        element.classList.toggle("progressive-disappearing")
     });
 
     /**
-     * Hide t
+     * Hide the different element that should change 
+     * when the button is clicked
      */
-    toHide.forEach(element => {
+    elementToHide.forEach(element => {
         element.classList.toggle("hide-or-not");
      });
 
-     navbar.footer.classList.toggle("centered-content");
-     navbar.header.classList.toggle("centered-content");
+    /**
+     * Centered content to have a better displaying of them
+     */
+    navbar.footer.classList.toggle("centered-content");
+    navbar.header.classList.toggle("centered-content");
 
 })

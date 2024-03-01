@@ -41,8 +41,8 @@ body
     grid-template-columns: 20rem auto;
 
     
-    transition-duration: 1.5s;
-    transition-property: width;
+    transition-duration: 1s;
+    transition-property: grid-template-columns;
 }
 
 
@@ -56,11 +56,6 @@ aside
 
     color: white;
     background-color: var(--clr-dark-black);
-    /* border: 1px solid black; */
-
-    
-    transition-duration: 1.5s;
-    transition-property: width;
 }
 
 .top-content
@@ -75,21 +70,16 @@ aside
 .navbar-header
 {   
     display: flex;
-    border: 1px solid yellow;
     justify-content: space-between;
-}
 
-.nav-link-container
-{
-    /* border: 1px solid blue; */
+    transition-duration: 1.5s;
+    transition-property: justify-content;
 }
-
 
 .nav-link-item
 {
     margin-bottom: 0.5rem;
     height: 4rem;
-    /* border: 1px solid var(--clr-neutral-green); */
 }
 
 .nav-link
@@ -114,6 +104,14 @@ aside
     background-color: var(--clr-neutral-green);
 }
 
+.nav-link-description
+{
+    transition-duration: 0.3s;
+    transition-property: opacity;
+    transition-delay: 0.2s;
+}
+
+
 
 .navbar-footer
 {
@@ -121,10 +119,13 @@ aside
     width: 100%;
     display: flex;
     padding: 0.5em;
-    /* padding: 0.5rem 0.5rem 0.5rem 1.5rem; */
     align-items: center;
     justify-content: space-between;
     background-color: var(--clr-primary-green);
+
+ 
+    transition-duration: 1.5s;
+    transition-property: justify-content;   
 }
 
 .profile
@@ -149,12 +150,6 @@ img
 }
 
 
-.navbar-footer
-{
-
-}
-
-
 /*Code about the main section*/
 
 main
@@ -172,6 +167,12 @@ h1
 {
     display: none;
 }
+
+.progressive-disappearing
+{
+    opacity: 0;
+}
+
 
 .reduced-navbar
 {
