@@ -164,18 +164,62 @@ main
 
 .challenge-informations
 {
-    border: 1px solid;
+    padding: 2rem;
 }
 
 h2
 {
     font-size: var(--fs-title);
+    margin-bottom: 2rem;
+}
+
+.challenge-container
+{
+    display: flex;
+    gap: 4rem;
+    border: 1px solid;
+    align-items: center;
 }
 
 .image-container
 {
     width: 736px;
-    border: 1px solid;
+}
+
+.project-download
+{
+    gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+    height: 16rem;
+    width: 20rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 4px solid var(--clr-primary-green)
+}
+
+button[data-role="get-template" ]
+{
+    width: 18rem;
+    height: 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--clr-primary-green);
+
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: box-shadow ease-in-out 0.3s;
+}
+
+
+button[data-role="get-template"]:hover
+{
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.2);
 }
 
 .main-footer
