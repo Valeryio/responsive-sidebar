@@ -36,8 +36,8 @@
 body
 {
     display: grid;
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh; */
+    /* overflow: hidden; */
     font-family: var(--ff-base);
     grid-template-rows: 100vh;
     grid-template-columns: 20rem auto;
@@ -224,11 +224,11 @@ button[data-role="get-template"]:hover
 
 .main-footer
 {
-    /* position: absolute;
-    bottom: 0;
+
     height: 4rem;
     width: 100%;
-    text-align: center; */
+    padding-top: 1rem;
+    text-align: center;
     color: white;
     background-color: var(--clr-dark-black);
 }
