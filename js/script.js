@@ -1,0 +1,4 @@
+function applyProperty(htmlElement, cssPropery)
+{
+    
+}
