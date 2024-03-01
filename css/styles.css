@@ -39,6 +39,10 @@ body
     font-family: var(--ff-base);
     grid-template-rows: 100vh;
     grid-template-columns: 20rem auto;
+
+    
+    transition-duration: 1.5s;
+    transition-property: width;
 }
 
 
@@ -53,6 +57,10 @@ aside
     color: white;
     background-color: var(--clr-dark-black);
     /* border: 1px solid black; */
+
+    
+    transition-duration: 1.5s;
+    transition-property: width;
 }
 
 .top-content
@@ -160,6 +168,20 @@ h1
     font-weight: 500;
 }
 
+.hide-or-not
+{
+    display: none;
+}
+
+.reduced-navbar
+{
+    grid-template-columns: 5rem auto; 
+}
+
+.centered-content
+{
+    justify-content: center;
+}
 
 /*SOme reseting in files*/
 
