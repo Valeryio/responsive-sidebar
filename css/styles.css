@@ -178,7 +178,6 @@ h2
 {
     display: flex;
     gap: 4rem;
-    border: 1px solid;
     align-items: center;
 }
 
@@ -235,6 +234,11 @@ button[data-role="get-template"]:hover
 }
 
 
+.prevent-card
+{
+    display: none;
+}
+
 
 
 @media screen and (max-width: 1280px) {
@@ -253,10 +257,11 @@ button[data-role="get-template"]:hover
         background-color: #0CC6F7;
     }
 
+    /*Showing the prevent card*/
+
     .prevent-card
     {
-        border: 1px solid;
-        border-radius: 1rem;
+        display: block;
     }
 
     .prevent-card picture
@@ -271,9 +276,10 @@ button[data-role="get-template"]:hover
 
     .prevent-text
     {
-        font-size: 2rem;
-        font-weight: 800;
-        font-family: 'open-sans';
+        font-size: calc(0.2rem + 6vw);
+        font-weight: 600;
+        color: white;
+        font-family: 'Poppins', sans-serif;
         text-align: center;
     }
 
